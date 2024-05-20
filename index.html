@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stream</title>
+</head>
+<body>
+    <h1>Fake video</h1>
+    <video id="inputVideo" width="640" height="480" autoplay playsinline></video>
+    <canvas id="outputCanvas" width="640" height="480"></canvas>
+    <br>
+    <button id="startButton">Start Streaming</button>
+    <button id="stopButton" disabled>Stop Streaming</button>
+    <br>
+    <h2>Imagen Procesada</h2>
+    <img id="processedImage" width="640" height="480">
+
+    <canvas id="processedCanvas" width="640" height="480"></canvas>
+
+    <script src="app.js"></script>
+</body>
+</html>
